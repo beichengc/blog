@@ -23,7 +23,7 @@
     <nav th:replace="_fragments :: menu(1)" class="ui inverted attached segment segment m-padded-tb-mini m-shadow-small">
         <div class="ui container">
             <div class="ui inverted secondary stackable menu" id="nav_menu">
-                <h2 class="ui teal header item">小小叶儿</h2>
+                <h2 class="ui teal header item">beicheng</h2>
                     <a href="#" class="m-item item m-mobile-hide"><i class="small home icon"></i>首页</a>
                 <a href="#" class="m-item item m-mobile-hide"><i class="small idea icon"></i>分类</a>
                 <a href="#" class="m-item item m-mobile-hide" ><i class="small tags icon"></i>标签</a>
@@ -324,7 +324,7 @@
                                 <h3 class="ui dividing header">评论</h3>
                                 <div class="comment" th:each="comment : ${comments}">
                                     <a class="avatar">
-                                        <img src="https://unsplash.it/800/450?image=1005" th:src="@{${comment.avatar}}">
+                                        <img src="https://unsplash.it/800/450" th:src="@{${comment.avatar}}">
                                     </a>
                                     <div class="content">
                                         <a class="author" >
