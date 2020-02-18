@@ -163,5 +163,6 @@ public class BlogServiceImpl implements BlogService
     @Override
     public void deleteBlog(Long id) {
         blogRepository.delete(id);
+
     }
 }
